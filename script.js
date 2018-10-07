@@ -337,6 +337,13 @@ if (arrayLength > 0)
 }
 }
 
+$(document).ready(function(){
+    $(".button").click(function(){
+        $("#MyList").fadeOut(slow)
+    });
+   
+});
+
 //v3.1
 function deleteShoppinglists(position) {
   document.getElementById("sharelist").innerHTML = ' ';
